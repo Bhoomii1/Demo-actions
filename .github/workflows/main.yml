@@ -18,11 +18,11 @@ jobs:
       - name: print java version 
         run: java -version 
       - name: Compiling 
-        run: javac ./Test.java
+        run: javac ../../Test.java
       - name: Listing 
         run: pwd
       - name: Execute 
-        run: java ./Test.java
+        run: java ../../Test.java
       - name: S4 Build 
         run: echo mvn -B package --file pom.xml
       - name: S5 list env  
