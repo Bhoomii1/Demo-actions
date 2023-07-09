@@ -28,6 +28,6 @@ jobs:
       - name: S5 list env  
         run: env 
       - name: S6 Perform task 
-        run: sh ./.github/script.sh
+        run: sh script.sh
         shell: bash
         
