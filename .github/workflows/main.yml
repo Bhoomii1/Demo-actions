@@ -22,7 +22,7 @@ jobs:
       - name: Listing 
         run: pwd
       - name: Execute 
-        run: java ../../Test.java
+        run: java ../../Test
       - name: S4 Build 
         run: echo mvn -B package --file pom.xml
       - name: S5 list env  
